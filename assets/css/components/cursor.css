@@ -1,0 +1,56 @@
+/* ==========================================================================
+   3. Custom Cursor
+   ========================================================================== */
+.custom-cursor-dot, .custom-cursor-ring {
+  display: none; /* Hidden by default for touch screens */
+}
+
+@media (hover: hover) and (pointer: fine) {
+  * {
+    cursor: none !important; /* Hide standard cursor on hover devices */
+  }
+
+  .custom-cursor-dot {
+    display: block;
+    width: var(--cursor-size);
+    height: var(--cursor-size);
+    background-color: var(--color-gold);
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999999;
+    transition: width 0.3s, height 0.3s, background-color 0.3s;
+  }
+
+  .custom-cursor-ring {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgba(197, 168, 128, 0.4);
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999998;
+    transition: transform 0.15s cubic-bezier(0.25, 1, 0.5, 1), width 0.3s, height 0.3s, border-color 0.3s;
+  }
+
+  body.cursor-hover .custom-cursor-dot {
+    width: 4px;
+    height: 4px;
+    background-color: var(--color-gold-light);
+  }
+
+  body.cursor-hover .custom-cursor-ring {
+    width: var(--cursor-hover-size);
+    height: var(--cursor-hover-size);
+    border-color: var(--color-gold-light);
+    background-color: rgba(197, 168, 128, 0.08);
+    box-shadow: 0 0 10px rgba(197, 168, 128, 0.15);
+  }
+}

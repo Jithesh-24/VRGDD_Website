@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VRG DESIGN DEN – Architecture | Landscape | Interior Design</title>
+  
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="VRG DESIGN DEN is an award-winning interdisciplinary design studio based in Chennai. We specialize in architecture, landscape design, luxurious interior design, turnkey construction, and custom furniture.">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/brand/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" href="assets/images/brand/favicon-192x192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/images/brand/apple-touch-icon.png">
+
+  <!-- Third-party stylesheets: icon set and web fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+
+  <!-- Site stylesheets. Load order is the cascade order - keep it. -->
+  <!-- Design tokens, reset and base typography -->
+  <link rel="stylesheet" href="assets/css/base/variables.css">
+  <link rel="stylesheet" href="assets/css/base/reset.css">
+  <link rel="stylesheet" href="assets/css/base/typography.css">
+
+  <!-- Reusable components -->
+  <link rel="stylesheet" href="assets/css/components/buttons.css">
+  <link rel="stylesheet" href="assets/css/components/cursor.css">
+  <link rel="stylesheet" href="assets/css/components/preloader.css">
+  <link rel="stylesheet" href="assets/css/components/header.css">
+
+  <!-- Page sections, in document order -->
+  <link rel="stylesheet" href="assets/css/sections/hero.css">
+  <link rel="stylesheet" href="assets/css/sections/about.css">
+  <link rel="stylesheet" href="assets/css/sections/philosophy.css">
+  <link rel="stylesheet" href="assets/css/sections/categories.css">
+  <link rel="stylesheet" href="assets/css/sections/services.css">
+  <link rel="stylesheet" href="assets/css/sections/stats.css">
+
+  <link rel="stylesheet" href="assets/css/components/marquee.css">
+
+  <link rel="stylesheet" href="assets/css/sections/works.css">
+  <link rel="stylesheet" href="assets/css/components/lightbox.css">
+  <link rel="stylesheet" href="assets/css/sections/founder-quote.css">
+  <link rel="stylesheet" href="assets/css/sections/skills.css">
+  <link rel="stylesheet" href="assets/css/sections/heritage.css">
+  <link rel="stylesheet" href="assets/css/sections/process.css">
+  <link rel="stylesheet" href="assets/css/sections/contact.css">
+  <link rel="stylesheet" href="assets/css/sections/footer.css">
+
+  <!-- Scroll-reveal utilities and the toast overlay -->
+  <link rel="stylesheet" href="assets/css/utilities/animations.css">
+  <link rel="stylesheet" href="assets/css/components/toast.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+     1. Custom 3D Mouse Cursor Ring
+     ========================================================================== -->
+  <div class="custom-cursor-dot" id="cursor-dot"></div>
+  <div class="custom-cursor-ring" id="cursor-ring"></div>
+
+  <!-- ==========================================================================
+     2. Minimal Luxury 3D Preloader
+     ========================================================================== -->
+  <div class="preloader" id="preloader">
+    <img src="assets/images/brand/logo-symbol-teal.png?v=2" alt="VRG DESIGN DEN" class="preloader-logo">
+    <div class="preloader-text">VRG DESIGN DEN</div>
+    <div class="preloader-bar-container">
+      <div class="preloader-bar"></div>
+    </div>
+    <div class="preloader-counter"><span class="preloader-counter-val">0</span>%</div>
+  </div>
+
+  <!-- ==========================================================================
+     3. Fixed Glass Navigation
+     ========================================================================== -->
+  <header class="header" id="header">
+    <div class="header-branding">
+      <a href="#home" class="logo">
+        <img src="assets/images/brand/logo-symbol-teal.png" alt="VRG DESIGN DEN Logo">
+      </a>
+      
+      <div class="header-separator"></div>
+      
+      <div class="header-brand-info">
+        <div class="brand-name">VRG DESIGN DEN</div>
+        <div class="brand-tagline">detailing dreams</div>
+        <div class="brand-services">Architecture | Landscape | Interior Design</div>
+      </div>
+    </div>
+    
+    <!-- Menu desktop -->
+    <nav class="nav-menu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#works" class="nav-link">Works</a>
+      <a href="#heritage" class="nav-link">Journey</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    
+    <!-- Hamburger button for mobile drawers -->
+    <button class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- ==========================================================================
+     4. Mobile Fullscreen Drawer Menu
+     ========================================================================== -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <button class="drawer-close" id="drawer-close" aria-label="Close Menu">
+      <i class="fas fa-times"></i>
+    </button>
+    <img src="assets/images/brand/logo-wordmark.png" alt="VRG DESIGN DEN" class="mobile-drawer-logo">
+    <nav class="mobile-drawer-nav">
+      <a href="#home" class="mobile-drawer-link">Home</a>
+      <a href="#about" class="mobile-drawer-link">About</a>
+      <a href="#services" class="mobile-drawer-link">Services</a>
+      <a href="#works" class="mobile-drawer-link">Works</a>
+      <a href="#heritage" class="mobile-drawer-link">Journey</a>
+      <a href="#process" class="mobile-drawer-link">Process</a>
+      <a href="#contact" class="mobile-drawer-link">Contact</a>
+    </nav>
+    <div class="mobile-drawer-contact">
+      <p><i class="fas fa-phone-alt"></i> +91 98842 21144</p>
+      <p><i class="fas fa-envelope"></i> info@vrgdesignden.com</p>
+    </div>
+    <div class="mobile-drawer-socials">
+      <a href="https://wa.me/919884221144" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/vrgdesignden_architects/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/company/vrg-design-den/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+     5. Hero Section (Parallax ken-burns slider)
+     ========================================================================== -->
+  <section class="hero" id="home">
+    <div class="hero-slideshow">
+      <div class="hero-slide active" style="background-image: url('assets/images/slides/01.webp');"></div>
+      <div class="hero-slide" style="background-image: url('assets/images/slides/02.webp');"></div>
+      <div class="hero-slide" data-bg="assets/images/slides/03.webp"></div>
+      <div class="hero-slide" data-bg="assets/images/slides/04.webp"></div>
+      <div class="hero-slide" data-bg="assets/images/slides/05.webp"></div>
+      <div class="hero-slide" data-bg="assets/images/slides/06.webp"></div>
+      <div class="hero-slide" data-bg="assets/images/slides/07.webp"></div>
+      <div class="hero-slide" data-bg="assets/images/slides/08.webp"></div>
+      <div class="hero-slide" data-bg="assets/images/slides/09.webp"></div>
+      <div class="hero-slide" data-bg="assets/images/slides/10.webp"></div>
+      <div class="hero-slide" data-bg="assets/images/slides/11.webp"></div>
+      <div class="hero-slide" data-bg="assets/images/slides/12.webp"></div>
+      <div class="hero-slide" data-bg="assets/images/slides/13.webp"></div>
+      <div class="hero-slide-glow"></div>
+    </div>
+    
+    <div class="hero-container">
+      <div class="hero-text-side">
+        <div class="hero-tagline">detailing dreams.</div>
+        <h1 class="hero-title-list">
+          <div class="hero-title-item"><span>ARCHITECTURE</span></div>
+          <div class="hero-title-item"><span>LANDSCAPE</span></div>
+          <div class="hero-title-item"><span>INTERIOR DESIGN</span></div>
+        </h1>
+        <div class="hero-cta">
+          <a href="#works" class="btn-gold">View Our Works</a>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="scroll-indicator">
+      <span class="scroll-label">Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     6. About Section (Parallax Split columns)
+     ========================================================================== -->
+  <section class="about section-padding reveal-3d" id="about">
+    <div class="about-grid">
+      <div class="about-image-column">
+        <div class="about-image-wrap">
+          <div class="about-image">
+            <img src="assets/images/content/about-office-sign.jpg" alt="VRG DESIGN DEN Studio Office Sign">
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-text-column">
+        <span class="section-subtitle">About the Studio</span>
+        <h2 class="section-title">VRG DESIGN DEN</h2>
+        <p class="about-paragraph">
+          <strong>VRG DESIGN DEN</strong> is an interdisciplinary, excellence and innovation-based company. Founded on the belief that architecture has a powerful impact on enriching people’s life, as well as having massive influences in enhancing and improving the world we live in. Based in Chennai, we specialize in architecture, landscape, interior design and custom furnishings. Our works range from luxury multi-family residential to bespoke commercial, landscaping and hospitality interiors. We strive to innovate and create unique end-user experiences that inspire and maximize worthwhile aesthetic.
+        </p>
+        <a href="#works" class="btn-gold">Explore Our Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     7. Brand Philosophy Section (Replacing Partner Loop)
+     ========================================================================== -->
+  <section class="philosophy-quote-section reveal-3d">
+    <div class="philosophy-quote-container">
+      <div class="quote-icon">“</div>
+      <blockquote class="philosophy-quote">
+        We do not just design spaces; we curate environments that inspire, elevate, and detail your dreams into reality.
+      </blockquote>
+      <div class="quote-author">VRG DESIGN DEN</div>
+      <div class="quote-line"></div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     8. Category Grid (Office, Public, Residential - Restored)
+     ========================================================================== -->
+  <section class="categories section-padding reveal-3d">
+    <span class="section-subtitle">Our Spaces</span>
+    <h2 class="section-title">Specialized Categories</h2>
+    
+    <div class="categories-grid">
+      <!-- Office Spaces -->
+      <div class="category-card reveal-3d">
+        <div class="category-card-bg" style="background-image: url('assets/images/categories/office.png');"></div>
+        <div class="category-card-overlay"></div>
+        <div class="category-card-content">
+          <h3 class="category-title">Productive Environments</h3>
+          <p class="category-card-desc">High-performance corporate workspaces designed to inspire focus, innovation, and spatial flow.</p>
+          <span class="category-number">01</span>
+        </div>
+      </div>
+      
+      <!-- Public Spaces -->
+      <div class="category-card reveal-3d">
+        <div class="category-card-bg" style="background-image: url('assets/images/categories/public.png');"></div>
+        <div class="category-card-overlay"></div>
+        <div class="category-card-content">
+          <h3 class="category-title">Civic Landmarks</h3>
+          <p class="category-card-desc">Sustainably planned public hubs and civic centers that integrate with native landscaping.</p>
+          <span class="category-number">02</span>
+        </div>
+      </div>
+      
+      <!-- Residential Spaces -->
+      <div class="category-card reveal-3d">
+        <div class="category-card-bg" style="background-image: url('assets/images/categories/residential.png');"></div>
+        <div class="category-card-overlay"></div>
+        <div class="category-card-content">
+          <h3 class="category-title">Bespoke Sanctuaries</h3>
+          <p class="category-card-desc">Luxury private villas and residences crafted to reflect the lifestyle and character of their owners.</p>
+          <span class="category-number">03</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     9. Services Section (Staggered cards)
+     ========================================================================== -->
+  <section class="services section-padding reveal-3d" id="services">
+    <div class="services-intro">
+      <span class="section-subtitle">What We Do</span>
+      <h2 class="section-title">Our Services</h2>
+      <p>Our design team customizes a tailored plan to suit all lifestyles, demographic regions, and budgets to resonate with each client's target market. We value function, comfort, and beauty which we achieve through classic design practices and an artistic approach to composition.</p>
+    </div>
+    
+    <div class="services-grid">
+      <!-- Card 1 -->
+      <div class="service-card reveal-3d">
+        <div class="service-card-bg" style="background-image: url('assets/images/content/service-bg-1.jpg');"></div>
+        <div class="service-card-glow"></div>
+        <div class="service-card-content">
+          <span class="service-number">01</span>
+          <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 52V24C12 17.3726 17.3726 12 24 12H40C46.6274 12 52 17.3726 52 24V52" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M24 12V52" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 2"/>
+            <path d="M40 12V52" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 2"/>
+            <line x1="8" y1="52" x2="56" y2="52" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <rect x="20" y="28" width="24" height="24" rx="2" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+          <h3 class="service-title">ARCHITECTURAL DESIGN</h3>
+          <p class="service-desc">We believe our essence in design is creating well-designed buildings to enrich peoples experience and improve their quality of life. Along with our clients, we create buildings that are healthy, comfortable, flexible, simple and efficient. They span into two different categories: Public Buildings (hospitals, malls, civic centres, educational buildings recreational buildings), and Residential Buildings. (Apartments, villas, hotels, motels, etc.)</p>
+        </div>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="service-card reveal-3d">
+        <div class="service-card-bg" style="background-image: url('assets/images/content/service-bg-2.jpg');"></div>
+        <div class="service-card-glow"></div>
+        <div class="service-card-content">
+          <span class="service-number">02</span>
+          <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="10" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="36" y="10" width="18" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="36" y="28" width="18" height="26" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <rect x="10" y="36" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M10 32H54" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+            <path d="M32 10V54" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+          </svg>
+          <h3 class="service-title">PLANNING &amp; URBAN DESIGN</h3>
+          <p class="service-desc">In VRG Design Den, we design in a full Integration with nature shaping sustainable communities friendly environments innovative and creative urban and rural communities aiming to improve the quality of life of today and future generations. Planning in VRG DESIGN DEN involves in a wide range of services: Large scale planning projects (new cities districts neighbourhoods), Small scale projects (resorts and compounds), Urban Design (Public parks and landscape, social and sports club, etc.), In addition to conservation and renovation to historical sites and buildings.</p>
+        </div>
+      </div>
+      
+      <!-- Card 3 -->
+      <div class="service-card reveal-3d">
+        <div class="service-card-bg" style="background-image: url('assets/images/content/service-bg-3.jpg');"></div>
+        <div class="service-card-glow"></div>
+        <div class="service-card-content">
+          <span class="service-number">03</span>
+          <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M32 12C32 12 16 26 16 38C16 46.8366 23.1634 54 32 54C40.8366 54 48 46.8366 48 38C48 26 32 12 32 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M32 12V54" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M32 26C35 29 40 30 44 28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M32 34C29 37 24 38 20 36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M32 42C35 45 40 46 44 44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <h3 class="service-title">LANDSCAPE DESIGN</h3>
+          <p class="service-desc">We create innovative and aesthetically pleasing environments for people to enjoy. We design landscape on two different levels urban level and details level believing that every single detail enriches and shapes our landscape. We design with advanced standards for different projects starting from city planning to residential compounds and villa, as well as public buildings and recreational areas including the design for plants hardscape, lighting, Irrigation and street furnishing.</p>
+        </div>
+      </div>
+      
+      <!-- Card 4 -->
+      <div class="service-card reveal-3d">
+
+        <div class="service-card-glow"></div>
+        <div class="service-card-content">
+          <span class="service-number">04</span>
+          <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 22H48V28C48 34.6274 42.6274 40 36 40H28C21.3726 40 16 34.6274 16 28V22Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M22 40L16 52" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M42 40L48 52" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M32 40V48" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M26 48H38" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M32 10V14" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M28 14H36L38 18H26L28 14Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          </svg>
+          <h3 class="service-title">INTERIOR DESIGN</h3>
+          <p class="service-desc">Interior design enriches the life of its users in luxurious way believing in the visual Impacts of interior and echo of material on their productivity, greater creativity and innovation while sustaining a comfortable and flexible use. We design in different scale from product design to huge public and residential buildings. This includes but not limited to finishing material, lighting units distribution and choice of furnishing elements.</p>
+        </div>
+      </div>
+      
+      <!-- Card 5 -->
+      <div class="service-card reveal-3d">
+
+        <div class="service-card-glow"></div>
+        <div class="service-card-content">
+          <span class="service-number">05</span>
+          <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 32V50C12 51.1046 12.8954 52 14 52H50C51.1046 52 52 51.1046 52 50V32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M8 32L32 12L56 32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="32" cy="30" r="4" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M32 34V46H36M32 42H36" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3 class="service-title">TURNKEY CONSTRUCTION</h3>
+          <p class="service-desc">Turnkey projects are considered to be the trend of the decade as it saves time, effort and money for clients in many ways possible. Our Turnkey projects involves planning, designing and executing both interiors and exteriors of the projects as per the requirements of the client and hand over the key to them after the final phase. All they need to do is to share their ideas, budget and requirements. In our works, we always focus on delivering quality projects that ensure sustainability and innovation</p>
+        </div>
+      </div>
+      
+      <!-- Card 6 -->
+      <div class="service-card reveal-3d">
+
+        <div class="service-card-glow"></div>
+        <div class="service-card-content">
+          <span class="service-number">06</span>
+          <svg class="service-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M32 10L52 20L32 30L12 20L32 10Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M12 20V42L32 52V30" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M52 20V42L32 52" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            <path d="M32 30V52" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 2"/>
+            <path d="M12 42L32 30L52 42" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 2"/>
+          </svg>
+          <h3 class="service-title">ANIMATION &amp; VISUALIZATION</h3>
+          <p class="service-desc">We specialize in several photo-realistic visualizations. Our work is characterized by the highest realistic qualities. We offer our clients the ability to create photorealistic simulations that best-demonstrate the product, providing them with a virtual-liveable experience of the designed spaces from different views and angles. We give our clients more than just production services as we offer our design and creativity solutions throughout the entire production process. Excellence and Innovation are the core values in our work that we always deliver.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     9.5 Stats Counters Section (Restored)
+     ========================================================================== -->
+  <section class="stats-section section-padding reveal-3d">
+    <div class="stats-container">
+      <!-- Stat 1 -->
+      <div class="stat-item reveal-3d" data-counter="200">
+        <div class="stat-number-wrap">
+          <span class="stat-number">0</span>
+          <span class="stat-plus">+</span>
+        </div>
+        <h3 class="stat-label">Projects Completed</h3>
+      </div>
+      
+      <!-- Stat 2 -->
+      <div class="stat-item reveal-3d" data-counter="7">
+        <div class="stat-number-wrap">
+          <span class="stat-number">0</span>
+          <span class="stat-plus">+</span>
+        </div>
+        <h3 class="stat-label">Years of Experience</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     10. Marquee Banner Ticker
+     ========================================================================== -->
+  <div class="marquee-ticker">
+    <div class="marquee-container">
+      <div class="marquee-text">
+        <span class="solid">Architecture</span> <span class="marquee-separator"></span> 
+        <span class="outline">Landscape</span> <span class="marquee-separator"></span> 
+        <span class="solid">Interior Design</span> <span class="marquee-separator"></span> 
+        <span class="outline">Turnkey</span> <span class="marquee-separator"></span> 
+        <span class="solid">Visualization</span> <span class="marquee-separator"></span> 
+        <span class="outline">Planning</span> <span class="marquee-separator"></span>
+      </div>
+      <div class="marquee-text">
+        <span class="solid">Architecture</span> <span class="marquee-separator"></span> 
+        <span class="outline">Landscape</span> <span class="marquee-separator"></span> 
+        <span class="solid">Interior Design</span> <span class="marquee-separator"></span> 
+        <span class="outline">Turnkey</span> <span class="marquee-separator"></span> 
+        <span class="solid">Visualization</span> <span class="marquee-separator"></span> 
+        <span class="outline">Planning</span> <span class="marquee-separator"></span>
+      </div>
+      <div class="marquee-text">
+        <span class="solid">Architecture</span> <span class="marquee-separator"></span> 
+        <span class="outline">Landscape</span> <span class="marquee-separator"></span> 
+        <span class="solid">Interior Design</span> <span class="marquee-separator"></span> 
+        <span class="outline">Turnkey</span> <span class="marquee-separator"></span> 
+        <span class="solid">Visualization</span> <span class="marquee-separator"></span> 
+        <span class="outline">Planning</span> <span class="marquee-separator"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+     11. Works / Portfolio Section (Interactive Masonry Grid)
+     ========================================================================== -->
+  <section class="works section-padding reveal-3d" id="works">
+    <div class="works-intro">
+      <span class="section-subtitle">Showcase</span>
+      <h2 class="section-title">Some of our works</h2>
+      <p class="works-intro-desc">
+        VRG Design Den is ready to help bring your dreams to reality. With an incredible focus on detail, Our Chief Architect and team approach each project with so much heart that they form lasting relationships with clients. Our approach to architectural design relies on years of experience and the unique characteristics each client brings to their project. That’s why you’ll see a diverge range of works in our portfolio.
+      </p>
+    </div>
+
+    <!-- Portfolio Category Filters -->
+    <div class="works-filter reveal-3d">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="residential">Residential</button>
+      <button class="filter-btn" data-filter="commercial">Commercial</button>
+      <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+    </div>
+    
+    <div class="works-grid">
+      <!-- Item 1 (Tall) -->
+      <div class="work-item" data-category="residential">
+        <div class="work-image-wrap">
+          <img src="assets/images/projects/olympia-panache.jpg" alt="OLYMPIA PANACHE Project">
+        </div>
+        <div class="work-overlay">
+          <div class="work-details">
+            <span class="work-category">Residential / Exterior</span>
+            <h3 class="work-title">OLYMPIA PANACHE</h3>
+          </div>
+        </div>
+        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
+      </div>
+      
+      <!-- Item 2 -->
+      <div class="work-item" data-category="residential">
+        <div class="work-image-wrap">
+          <img src="assets/images/projects/aaron-obed.png" alt="AARON OBED Project">
+        </div>
+        <div class="work-overlay">
+          <div class="work-details">
+            <span class="work-category">Residential / Styling</span>
+            <h3 class="work-title">AARON OBED</h3>
+          </div>
+        </div>
+        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
+      </div>
+      
+      <!-- Item 3 -->
+      <div class="work-item" data-category="residential">
+        <div class="work-image-wrap">
+          <img src="assets/images/projects/amara.png" alt="AMARA Project">
+        </div>
+        <div class="work-overlay">
+          <div class="work-details">
+            <span class="work-category">Residential / Modern Architecture</span>
+            <h3 class="work-title">AMARA</h3>
+          </div>
+        </div>
+        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
+      </div>
+      
+      <!-- Item 4 (Wide) -->
+      <div class="work-item" data-category="residential">
+        <div class="work-image-wrap">
+          <img src="assets/images/projects/express-estate.jpg" alt="EXPRESS ESTATE Project">
+        </div>
+        <div class="work-overlay">
+          <div class="work-details">
+            <span class="work-category">Residential / Bedroom Interior</span>
+            <h3 class="work-title">EXPRESS ESTATE</h3>
+          </div>
+        </div>
+        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
+      </div>
+      
+      <!-- Item 5 -->
+      <div class="work-item" data-category="residential">
+        <div class="work-image-wrap">
+          <img src="assets/images/projects/menka.jpg" alt="MENKA Project">
+        </div>
+        <div class="work-overlay">
+          <div class="work-details">
+            <span class="work-category">Residential / Urban Living</span>
+            <h3 class="work-title">MENKA</h3>
+          </div>
+        </div>
+        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
+      </div>
+      
+      <!-- Item 6 -->
+      <div class="work-item" data-category="commercial">
+        <div class="work-image-wrap">
+          <img src="assets/images/projects/pure-lights-studio.jpg" alt="PURE LIGHTS STUDIO Project">
+        </div>
+        <div class="work-overlay">
+          <div class="work-details">
+            <span class="work-category">Commercial Interior</span>
+            <h3 class="work-title">PURE LIGHTS STUDIO</h3>
+          </div>
+        </div>
+        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
+      </div>
+      
+      <!-- Item 7 (Tall) -->
+      <div class="work-item" data-category="commercial">
+        <div class="work-image-wrap">
+          <img src="assets/images/projects/tara-decors.jpg" alt="TARA DECORS Project">
+        </div>
+        <div class="work-overlay">
+          <div class="work-details">
+            <span class="work-category">Commercial / Turnkey Showroom</span>
+            <h3 class="work-title">TARA DECORS</h3>
+          </div>
+        </div>
+        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
+      </div>
+      
+      <!-- Item 8 -->
+      <div class="work-item" data-category="commercial">
+        <div class="work-image-wrap">
+          <img src="assets/images/projects/quinchem.jpg" alt="QUINCHEM Project">
+        </div>
+        <div class="work-overlay">
+          <div class="work-details">
+            <span class="work-category">Commercial / Corporate Exterior</span>
+            <h3 class="work-title">QUINCHEM</h3>
+          </div>
+        </div>
+        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
+      </div>
+      
+      <!-- Item 9 (Wide) -->
+      <div class="work-item" data-category="hospitality">
+        <div class="work-image-wrap">
+          <img src="assets/images/projects/tiny-house-competition.jpg" alt="TINY HOUSE COMPETITION Project">
+        </div>
+        <div class="work-overlay">
+          <div class="work-details">
+            <span class="work-category">Hospitality / Resort Micro-living</span>
+            <h3 class="work-title">TINY HOUSE COMPETITION</h3>
+          </div>
+        </div>
+        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     12. Custom Lightbox Container
+     ========================================================================== -->
+  <div class="custom-lightbox" id="custom-lightbox">
+    <div class="lightbox-content-wrap">
+      <button class="lightbox-close"><i class="fas fa-times"></i></button>
+      <button class="lightbox-nav-btn lightbox-prev"><i class="fas fa-arrow-left"></i></button>
+      <button class="lightbox-nav-btn lightbox-next"><i class="fas fa-arrow-right"></i></button>
+      <div class="lightbox-image-container">
+        <img src="" alt="Lightbox Preview">
+      </div>
+      <h4 class="lightbox-title"></h4>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+     13. Founder Section & Quote (Restored & Aligned)
+     ========================================================================== -->
+  <section class="founder-quote section-padding reveal-3d">
+    <div class="founder-quote-grid">
+      <div class="quote-left">
+        <div class="quote-symbol">“</div>
+        <blockquote class="quote-text">
+          Every remarkable space begins as a question: "What if?"
+        </blockquote>
+        <div class="founder-info">
+          <div class="founder-image-wrap">
+            <img src="assets/images/content/founder-gokul-ranganaath.png" alt="Gokul Ranganaath Vairamani Founder">
+          </div>
+          <div>
+            <h4 class="founder-name">GOKUL RANGANAATH VAIRAMANI</h4>
+            <span class="founder-title">creative head</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="quote-right">
+        <!-- Floating brand logo illustration -->
+        <img src="assets/images/brand/logo-full-teal.png" alt="VRG DESIGN DEN Logo" class="founder-quote-illustration">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     14. Pillars of Excellence (Restored Values & Legacy)
+     ========================================================================== -->
+  <section class="skills-section section-padding reveal-3d">
+    <div class="skills-grid">
+      <div class="skills-intro">
+        <span class="section-subtitle">Our Commitments</span>
+        <h2 class="section-title">The Pillars of Excellence</h2>
+        <p class="skills-intro-desc">Our design philosophy goes beyond standard service checklists. We weave multi-generational engineering trust, bespoke artistry, and single-point project control into a premium turnkey experience.</p>
+        
+        <div class="skills-cta-wrap" style="margin-top: 35px;">
+          <a href="#contact" class="btn-gold">Request Consultation</a>
+        </div>
+        
+        <!-- Legacy Badge to balance vertical height -->
+        <div class="legacy-badge reveal-3d">
+          <div class="badge-ring">
+            <div class="badge-content">
+              <span class="badge-years">50</span>
+              <span class="badge-label">Years</span>
+            </div>
+          </div>
+          <div class="badge-meta">
+            <h4>Established 1976</h4>
+            <p>Built on a rock-solid foundation of structural engineering and design innovation.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="skills-values-container">
+        <!-- Value 1 -->
+        <div class="value-item reveal-3d">
+          <div class="value-icon"><i class="fas fa-landmark"></i></div>
+          <div class="value-content">
+            <h3 class="value-title">50-Year Legacy Bedrock</h3>
+            <p class="value-text">Leveraging our parent firm's five-decade infrastructure building experience, ensuring structural reliability and engineering precision.</p>
+          </div>
+        </div>
+        
+        <!-- Value 2 -->
+        <div class="value-item reveal-3d">
+          <div class="value-icon"><i class="fas fa-drafting-compass"></i></div>
+          <div class="value-content">
+            <h3 class="value-title">Bespoke Spatial Artistry</h3>
+            <p class="value-text">Crafting personalized layouts, custom furniture detailing, and realistic 3D visualizations that align with your aesthetic vision.</p>
+          </div>
+        </div>
+
+        <!-- Value 3 -->
+        <div class="value-item reveal-3d">
+          <div class="value-icon"><i class="fas fa-hands-helping"></i></div>
+          <div class="value-content">
+            <h3 class="value-title">Turnkey Accountability</h3>
+            <p class="value-text">We manage the complete lifecycle—from initial sketch to construction handover—offering a stress-free, single contact point.</p>
+          </div>
+        </div>
+
+        <!-- Value 4 -->
+        <div class="value-item reveal-3d">
+          <div class="value-icon"><i class="fas fa-leaf"></i></div>
+          <div class="value-content">
+            <h3 class="value-title">Bio-Integrated Design</h3>
+            <p class="value-text">Fusing architecture with native landscape design to create organic, healthy environments that improve quality of life.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     14.5 Heritage & Transition Timeline
+     ========================================================================== -->
+  <section class="heritage-timeline-section section-padding reveal-3d" id="heritage">
+    <div class="heritage-container">
+      <div class="heritage-intro">
+        <span class="section-subtitle">Our Journey</span>
+        <h2 class="section-title">Decades of Trust</h2>
+        <p class="heritage-tagline">Merging five decades of structural engineering bedrock with bespoke contemporary artistry.</p>
+      </div>
+      
+      <div class="timeline-wrapper">
+        <div class="timeline-line"></div>
+        <div class="timeline-grid">
+          <!-- Milestone 1 -->
+          <div class="timeline-node reveal-3d">
+            <div class="node-dot"></div>
+            <div class="node-year">1970s</div>
+            <h3 class="node-title">The Legacy Partnership</h3>
+            <p class="node-text">Establishment of the family partnership firm V. Rangaswamy and Co., initiating five decades of civil infrastructure and public works projects throughout Tamil Nadu.</p>
+          </div>
+          
+          <!-- Milestone 2 -->
+          <div class="timeline-node reveal-3d">
+            <div class="node-dot"></div>
+            <div class="node-year">2013</div>
+            <h3 class="node-title">VRG Construction Private Limited (Sister Concern)</h3>
+            <p class="node-text">Incorporation of VRG Construction Private Limited as a sister concern to consolidate legacy operations, scaling structural engineering and civil construction capabilities.</p>
+          </div>
+          
+          <!-- Milestone 3 -->
+          <div class="timeline-node reveal-3d">
+            <div class="node-dot"></div>
+            <div class="node-year">2020</div>
+            <h3 class="node-title">VRG Design Den Inception</h3>
+            <p class="node-text">Official incorporation of VRG Design Den Private Limited by Gokul Vairamani Ranganaath, bridging our multi-generational engineering foundation with bespoke design-build luxury.</p>
+          </div>
+          
+          <!-- Milestone 4 -->
+          <div class="timeline-node reveal-3d">
+            <div class="node-dot"></div>
+            <div class="node-year">2026</div>
+            <h3 class="node-title">Present Prowess</h3>
+            <p class="node-text">With over 200 luxury design-build deliverables completed, the studio stands as a premier interdisciplinary practice in South India, actively scaling custom residential, commercial, and landscape sanctuaries.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     15. Design Process (Our Strategic Workflow)
+     ========================================================================== -->
+  <section class="design-process-section section-padding reveal-3d" id="process">
+    <span class="section-subtitle">Our Workflow</span>
+    <h2 class="section-title">The Design Process</h2>
+
+    <div class="process-grid">
+      <!-- Step 1 -->
+      <div class="process-card reveal-3d">
+        <div class="process-number">01</div>
+        <h3 class="process-title">Discovery & Brief</h3>
+        <p class="process-desc">We collaborate closely to explore your lifestyle requirements, aesthetic tastes, site parameters, and project goals to build a detailed design brief.</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="process-card reveal-3d">
+        <div class="process-number">02</div>
+        <h3 class="process-title">Concept & Planning</h3>
+        <p class="process-desc">Drafting space allocations, technical zoning schemas, architectural floorplans, and flow dynamics tailored specifically to enrich your daily experiences.</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="process-card reveal-3d">
+        <div class="process-number">03</div>
+        <h3 class="process-title">3D Visualization</h3>
+        <p class="process-desc">Creating photo-realistic visual simulations that demonstrate materials, lighting profiles, and interior accents, offering a virtual-liveable preview.</p>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="process-card reveal-3d">
+        <div class="process-number">04</div>
+        <h3 class="process-title">Detailed Design Development</h3>
+        <p class="process-desc">Every approved concept is transformed into a complete set of technical drawings and specifications, ensuring every material, junction, dimension, and detail is precisely defined before execution begins.</p>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="process-card reveal-3d">
+        <div class="process-number">05</div>
+        <h3 class="process-title">Turnkey Construction</h3>
+        <p class="process-desc">Direct execution, vendor supervision, technical detailing, and premium material curation, delivering the keys to your completed dream space.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     16. Call-to-Action Parallax Banner
+     ========================================================================== -->
+  <section class="reveal-3d" style="background-image: linear-gradient(rgba(7,7,8,0.55), rgba(7,7,8,0.65)), url('assets/images/content/cta-background.png'); background-attachment: fixed; background-size: cover; background-position: center; padding: 160px 10%; text-align: center; border-top: 1px solid rgba(255,255,255,0.04);">
+    <h2 style="font-family: var(--font-display); font-size: 58px; line-height: 1.15; margin-bottom: 25px; color: var(--text-highlight); letter-spacing: -1px;">We'd love to work with you so please detail your needs below.</h2>
+    <p style="color: var(--text-secondary); font-size: 16px; max-width: 650px; margin: 0 auto 45px auto; line-height: 1.8;">Detail your needs and let's create something extraordinary together.</p>
+    <a href="#contact" class="btn-gold">get in touch</a>
+  </section>
+
+  <!-- ==========================================================================
+     17. Contact Section & Map
+     ========================================================================== -->
+  <section class="contact-section section-padding reveal-3d" id="contact">
+    <div class="contact-grid">
+      <div class="contact-info-col">
+        <div>
+          <span class="section-subtitle">Connect</span>
+          <h2 class="section-title">Let's Talk</h2>
+          
+          <div class="contact-info-list">
+            <!-- Address -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-home"></i></div>
+              <div>
+                <span class="contact-info-text-label">Studio Address</span>
+                <span class="contact-info-text-val">Door No. 10A/7, Second Main Road, V.O.C. Colony, Kodambakkam, Chennai- 600024, Tamil Nadu.</span>
+              </div>
+            </div>
+            
+            <!-- Email -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="contact-info-text-label">Email Us</span>
+                <span class="contact-info-text-val"><a href="mailto:info@vrgdesignden.com">info@vrgdesignden.com</a></span>
+              </div>
+            </div>
+            
+            <!-- Mobile -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-mobile-alt"></i></div>
+              <div>
+                <span class="contact-info-text-label">Mobile Number</span>
+                <span class="contact-info-text-val"><a href="tel:+919884221144">+91 9884221144</a></span>
+              </div>
+            </div>
+            
+            <!-- Landline -->
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span class="contact-info-text-label">Landline Number</span>
+                <span class="contact-info-text-val"><a href="tel:04445561144">044-45561144</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-social-row">
+          <a href="https://wa.me/919884221144" class="contact-social-btn" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/vrgdesignden_architects/" class="contact-social-btn" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/vrg-design-den/" class="contact-social-btn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="contact-form-col">
+        <!-- Corner brackets for architectural blueprint look -->
+        <div class="corner-bracket top-left"></div>
+        <div class="corner-bracket top-right"></div>
+        <div class="corner-bracket bottom-left"></div>
+        <div class="corner-bracket bottom-right"></div>
+
+        <form action="https://formsubmit.co/info@vrgdesignden.com" method="POST" class="contact-form">
+          <!-- FormSubmit Configuration -->
+          <input type="hidden" name="_subject" value="New Contact Form Submission from VRG Design Den">
+          <input type="hidden" name="_captcha" value="false">
+
+          <div class="form-group">
+            <input type="text" id="contact-name" name="name" class="form-input" placeholder=" " required>
+            <label for="contact-name" class="form-label">Full Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="contact-email" name="email" class="form-input" placeholder=" " required>
+            <label for="contact-email" class="form-label">Email Address</label>
+          </div>
+          <div class="form-group">
+            <textarea id="contact-message" name="message" class="form-textarea" placeholder=" " required></textarea>
+            <label for="contact-message" class="form-label">Message Details</label>
+          </div>
+          <button type="submit" class="btn-gold" style="align-self: flex-start;">Send Message <i class="fas fa-arrow-right" style="margin-left: 10px; transition: transform 0.3s ease;"></i></button>
+        </form>
+      </div>
+      
+      <!-- Embedded google maps with dark visual filter -->
+      <div class="contact-map-wrap reveal-3d">
+        <iframe src="https://maps.google.com/maps?q=10A%2F7%2C+Second+Main+Road%2C+V.O.C.+Colony%2C+Kodambakkam%2C+Chennai+600024%2C+Tamil+Nadu&t=&z=16&ie=UTF8&iwloc=addr&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+     18. Footer
+     ========================================================================== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand-col">
+        <div class="footer-branding-wrap">
+          <img src="assets/images/brand/logo-symbol-teal.png?v=2" alt="VRG DESIGN DEN Logo" class="footer-logo">
+          <div class="footer-separator"></div>
+          <div class="footer-brand-info">
+            <div class="footer-brand-name">VRG DESIGN DEN</div>
+            <div class="footer-brand-tagline">detailing dreams</div>
+            <div class="footer-brand-services">Architecture | Landscape | Interior Design</div>
+          </div>
+        </div>
+        <p class="footer-brand-desc">
+          We have a core team of architects, construction consultants and interior designers. Our parent firm is a 50 years old company involved in various government projects which is the true base of our company. Merging these two we hope to achieve new heights in the field of architecture.
+        </p>
+      </div>
+      
+      <div>
+        <h4 class="footer-title">Quick Links</h4>
+        <ul class="footer-links-list">
+          <li class="footer-link-item"><a href="#home">Home</a></li>
+          <li class="footer-link-item"><a href="#about">About us</a></li>
+          <li class="footer-link-item"><a href="#services">Services</a></li>
+          <li class="footer-link-item"><a href="#works">Works</a></li>
+          <li class="footer-link-item"><a href="#heritage">Journey</a></li>
+          <li class="footer-link-item"><a href="#process">Process</a></li>
+          <li class="footer-link-item"><a href="#contact">Contacts</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <h4 class="footer-title">CONTACT US</h4>
+        <div class="footer-contact-info">
+          <p><i class="fas fa-map-marker-alt"></i> Door No. 10A/7, Second Main Road, V.O.C. Colony, Kodambakkam, Chennai- 600024, Tamil Nadu.</p>
+          <p><i class="fas fa-envelope"></i> info@vrgdesignden.com</p>
+          <p><i class="fas fa-phone-alt"></i> +91 9884221144</p>
+          <p><i class="fas fa-phone"></i> 044-45561144</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-copy">
+        &copy; 2026 VRG DESIGN DEN. Crafted with passion. All Rights Reserved.
+      </div>
+      <div class="footer-socials">
+        <a href="https://wa.me/919884221144" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/vrgdesignden_architects/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/vrg-design-den/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+     19. Scripts & Libraries from CDN (Lenis scroll + GSAP animations)
+     ========================================================================== -->
+  <!-- Lenis smooth scrolling -->
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+
+  <!-- GSAP core & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <!-- Domain lock. Classic script so it runs before the deferred entry module. -->
+  <script src="assets/js/security.js"></script>
+
+  <!-- Application entry point -->
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

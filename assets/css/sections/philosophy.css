@@ -1,0 +1,68 @@
+/* ==========================================================================
+   8. Brand Philosophy Section
+   ========================================================================== */
+.philosophy-quote-section {
+  position: relative;
+  background-color: var(--bg-secondary); /* Matches the surrounding sections (#0f0f11) exactly */
+  padding: 80px 10% 100px 10%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.philosophy-quote-container {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.quote-icon {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 90px;
+  line-height: 1;
+  color: var(--color-gold);
+  opacity: 0.22;
+  margin-bottom: -15px;
+  user-select: none;
+}
+
+.philosophy-quote {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--text-highlight);
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+.quote-author {
+  font-family: var(--font-body); /* Inter */
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--color-gold);
+  text-transform: uppercase;
+}
+
+.quote-line {
+  width: 50px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-top: 25px;
+}
+
+/* Responsive adjustment */
+@media (max-width: 767px) {
+  .philosophy-quote-section {
+    padding: 70px 6%;
+  }
+  .philosophy-quote {
+    font-size: 23px;
+    line-height: 1.6;
+  }
+}

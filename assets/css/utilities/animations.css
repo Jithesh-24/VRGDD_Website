@@ -1,0 +1,14 @@
+/* ==========================================================================
+   19. GSAP 3D Scroll Reveal & Utilities
+   ========================================================================== */
+.reveal-3d {
+  opacity: 0;
+  transform: translateY(60px) rotateX(-8deg);
+  transform-origin: top center;
+  transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.reveal-3d.active {
+  opacity: 1;
+  transform: translateY(0) rotateX(0deg);
+}

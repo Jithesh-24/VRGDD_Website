@@ -1,0 +1,71 @@
+/* ==========================================================================
+   4. Preloader
+   ========================================================================== */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-primary);
+  z-index: 100000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1.2s cubic-bezier(0.85, 0, 0.15, 1);
+}
+
+.preloader.fade-out {
+  transform: translateY(-100%);
+}
+
+.preloader-logo {
+  width: 160px;
+  margin-bottom: 30px;
+  opacity: 0;
+  transform: scale(0.9) rotateY(15deg);
+  animation: preloaderLogoIn 1.5s forwards cubic-bezier(0.25, 1, 0.5, 1);
+  transform: translateZ(0);
+}
+
+.preloader-text {
+  font-family: var(--font-accent);
+  font-size: 11px;
+  letter-spacing: 10px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  margin-left: 10px;
+}
+
+.preloader-bar-container {
+  width: 240px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.03);
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.preloader-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: var(--gold-gradient);
+  box-shadow: 0 0 10px var(--gold-glow);
+}
+
+.preloader-counter {
+  font-family: var(--font-display);
+  font-size: 18px;
+  color: var(--color-gold);
+}
+
+@keyframes preloaderLogoIn {
+  to {
+    opacity: 1;
+    transform: scale(1) rotateY(0deg);
+  }
+}

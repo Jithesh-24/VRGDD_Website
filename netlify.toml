@@ -1,0 +1,18 @@
+# Static site — no build step. Netlify serves the repository root as-is.
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Fingerprint-free asset names, so keep caching conservative for code
+# and aggressive for the images, which are replaced rather than edited.
+[[headers]]
+  for = "/assets/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"

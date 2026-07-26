@@ -1,0 +1,56 @@
+/* ==========================================================================
+   11. Marquee
+   ========================================================================== */
+.marquee-ticker {
+  background-color: var(--bg-secondary);
+  padding: 45px 0;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+
+.marquee-container {
+  display: flex;
+  white-space: nowrap;
+  width: max-content;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  animation: marqueeTickerAnimation 35s linear infinite;
+}
+
+.marquee-text {
+  font-family: var(--font-display);
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.marquee-text span.solid {
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.marquee-text span.outline {
+  font-family: 'Futura', 'Century Gothic', Arial, sans-serif;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(197, 168, 128, 0.6);
+}
+
+.marquee-separator {
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-gold);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 45px;
+}
+
+@keyframes marqueeTickerAnimation {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-33.3333%, 0, 0); }
+}
