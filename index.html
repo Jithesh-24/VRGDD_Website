@@ -22,34 +22,34 @@
 
   <!-- Site stylesheets. Load order is the cascade order - keep it. -->
   <!-- Design tokens, reset and base typography -->
-  <link rel="stylesheet" href="assets/css/base/variables.css">
-  <link rel="stylesheet" href="assets/css/base/reset.css">
-  <link rel="stylesheet" href="assets/css/base/typography.css">
+  <link rel="stylesheet" href="assets/css/base/variables.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/base/reset.css?v=10.0">
+  <link rel="stylesheet" href="assets/css/base/typography.css?v=1.3">
 
   <!-- Reusable components -->
-  <link rel="stylesheet" href="assets/css/components/buttons.css">
-  <link rel="stylesheet" href="assets/css/components/cursor.css">
-  <link rel="stylesheet" href="assets/css/components/preloader.css">
-  <link rel="stylesheet" href="assets/css/components/header.css">
-
+  <link rel="stylesheet" href="assets/css/components/buttons.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/components/cursor.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/components/preloader.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/components/header.css?v=25.0">
+  
   <!-- Page sections, in document order -->
-  <link rel="stylesheet" href="assets/css/sections/hero.css">
-  <link rel="stylesheet" href="assets/css/sections/about.css">
-  <link rel="stylesheet" href="assets/css/sections/philosophy.css">
-  <link rel="stylesheet" href="assets/css/sections/categories.css">
-  <link rel="stylesheet" href="assets/css/sections/services.css">
-  <link rel="stylesheet" href="assets/css/sections/stats.css">
+  <link rel="stylesheet" href="assets/css/sections/hero.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/sections/about.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/sections/philosophy.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/sections/categories.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/sections/services.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/sections/stats.css?v=1.3">
 
-  <link rel="stylesheet" href="assets/css/components/marquee.css">
+  <link rel="stylesheet" href="assets/css/components/marquee.css?v=1.3">
 
-  <link rel="stylesheet" href="assets/css/sections/works.css">
-  <link rel="stylesheet" href="assets/css/components/lightbox.css">
-  <link rel="stylesheet" href="assets/css/sections/founder-quote.css">
-  <link rel="stylesheet" href="assets/css/sections/skills.css">
-  <link rel="stylesheet" href="assets/css/sections/heritage.css">
-  <link rel="stylesheet" href="assets/css/sections/process.css">
-  <link rel="stylesheet" href="assets/css/sections/contact.css">
-  <link rel="stylesheet" href="assets/css/sections/footer.css">
+  <link rel="stylesheet" href="assets/css/sections/works.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/components/lightbox.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/sections/founder-quote.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/sections/skills.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/sections/heritage.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/sections/process.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/sections/contact.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/sections/footer.css?v=7.0">
 
   <!-- Scroll-reveal utilities and the toast overlay -->
   <link rel="stylesheet" href="assets/css/utilities/animations.css">
@@ -67,7 +67,7 @@
      2. Minimal Luxury 3D Preloader
      ========================================================================== -->
   <div class="preloader" id="preloader">
-    <img src="assets/images/brand/logo-symbol-teal.png?v=2" alt="VRG DESIGN DEN" class="preloader-logo">
+    <img decoding="async" src="assets/images/brand/logo-symbol-teal.png?v=2" alt="VRG DESIGN DEN" class="preloader-logo">
     <div class="preloader-text">VRG DESIGN DEN</div>
     <div class="preloader-bar-container">
       <div class="preloader-bar"></div>
@@ -81,15 +81,13 @@
   <header class="header" id="header">
     <div class="header-branding">
       <a href="#home" class="logo">
-        <img src="assets/images/brand/logo-symbol-teal.png" alt="VRG DESIGN DEN Logo">
+        <img decoding="async" src="assets/images/brand/logo-symbol-teal.png" alt="VRG DESIGN DEN Logo">
       </a>
       
       <div class="header-separator"></div>
       
       <div class="header-brand-info">
         <div class="brand-name">VRG DESIGN DEN</div>
-        <div class="brand-tagline">detailing dreams</div>
-        <div class="brand-services">Architecture | Landscape | Interior Design</div>
       </div>
     </div>
     
@@ -119,7 +117,7 @@
     <button class="drawer-close" id="drawer-close" aria-label="Close Menu">
       <i class="fas fa-times"></i>
     </button>
-    <img src="assets/images/brand/logo-wordmark.png" alt="VRG DESIGN DEN" class="mobile-drawer-logo">
+    <img decoding="async" src="assets/images/brand/logo-wordmark.png" alt="VRG DESIGN DEN" class="mobile-drawer-logo">
     <nav class="mobile-drawer-nav">
       <a href="#home" class="mobile-drawer-link">Home</a>
       <a href="#about" class="mobile-drawer-link">About</a>
@@ -163,7 +161,7 @@
     
     <div class="hero-container">
       <div class="hero-text-side">
-        <div class="hero-tagline">detailing dreams.</div>
+        <div class="hero-tagline">detailing dreams</div>
         <h1 class="hero-title-list">
           <div class="hero-title-item"><span>ARCHITECTURE</span></div>
           <div class="hero-title-item"><span>LANDSCAPE</span></div>
@@ -190,7 +188,7 @@
       <div class="about-image-column">
         <div class="about-image-wrap">
           <div class="about-image">
-            <img src="assets/images/content/about-office-sign.jpg" alt="VRG DESIGN DEN Studio Office Sign">
+            <img loading="lazy" decoding="async" src="assets/images/content/about-office-sign.jpg" alt="VRG DESIGN DEN Studio Office Sign">
           </div>
         </div>
       </div>
@@ -455,140 +453,355 @@
       </p>
     </div>
 
-    <!-- Portfolio Category Filters -->
+                                                                                    <!-- Portfolio Category Filters -->
     <div class="works-filter reveal-3d">
       <button class="filter-btn active" data-filter="all">All Projects</button>
       <button class="filter-btn" data-filter="residential">Residential</button>
       <button class="filter-btn" data-filter="commercial">Commercial</button>
       <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+      <button class="filter-btn" data-filter="international">International</button>
     </div>
     
-    <div class="works-grid">
-      <!-- Item 1 (Tall) -->
-      <div class="work-item" data-category="residential">
-        <div class="work-image-wrap">
-          <img src="assets/images/projects/olympia-panache.jpg" alt="OLYMPIA PANACHE Project">
-        </div>
-        <div class="work-overlay">
-          <div class="work-details">
-            <span class="work-category">Residential / Exterior</span>
-            <h3 class="work-title">OLYMPIA PANACHE</h3>
+        <div class="works-grid">
+          <!-- Work Item 1: RATHNA RESIDENCE - T.NAGAR -->
+          <div class="work-item" data-category="residential" data-project-id="01-rathna-residence-t-nagar">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/1.png" alt="RATHNA RESIDENCE - T.NAGAR" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 53 Photos</span>
+                  </div>
+                  <h3 class="work-title">RATHNA RESIDENCE - T.NAGAR</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View RATHNA RESIDENCE - T.NAGAR gallery"><i class="fas fa-expand"></i></div>
+            </div>
           </div>
-        </div>
-        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
-      </div>
-      
-      <!-- Item 2 -->
-      <div class="work-item" data-category="residential">
-        <div class="work-image-wrap">
-          <img src="assets/images/projects/aaron-obed.png" alt="AARON OBED Project">
-        </div>
-        <div class="work-overlay">
-          <div class="work-details">
-            <span class="work-category">Residential / Styling</span>
-            <h3 class="work-title">AARON OBED</h3>
+
+          <!-- Work Item 2: VILLA EUROPA - ECR -->
+          <div class="work-item" data-category="residential" data-project-id="02-villa-europa-ecr">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/02.%20VILLA%20EUROPA%20-%20ECR/01.jpg" alt="VILLA EUROPA - ECR" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 43 Photos</span>
+                  </div>
+                  <h3 class="work-title">VILLA EUROPA - ECR</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View VILLA EUROPA - ECR gallery"><i class="fas fa-expand"></i></div>
+            </div>
           </div>
-        </div>
-        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
-      </div>
-      
-      <!-- Item 3 -->
-      <div class="work-item" data-category="residential">
-        <div class="work-image-wrap">
-          <img src="assets/images/projects/amara.png" alt="AMARA Project">
-        </div>
-        <div class="work-overlay">
-          <div class="work-details">
-            <span class="work-category">Residential / Modern Architecture</span>
-            <h3 class="work-title">AMARA</h3>
+
+          <!-- Work Item 3: TVH - NIVAAN - A101 - SALIGRAMAM -->
+          <div class="work-item" data-category="residential" data-project-id="03-tvh-nivaan-a101-saligramam">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/1.jpg" alt="TVH - NIVAAN - A101 - SALIGRAMAM" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 28 Photos</span>
+                  </div>
+                  <h3 class="work-title">TVH - NIVAAN - A101 - SALIGRAMAM</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View TVH - NIVAAN - A101 - SALIGRAMAM gallery"><i class="fas fa-expand"></i></div>
+            </div>
           </div>
-        </div>
-        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
-      </div>
-      
-      <!-- Item 4 (Wide) -->
-      <div class="work-item" data-category="residential">
-        <div class="work-image-wrap">
-          <img src="assets/images/projects/express-estate.jpg" alt="EXPRESS ESTATE Project">
-        </div>
-        <div class="work-overlay">
-          <div class="work-details">
-            <span class="work-category">Residential / Bedroom Interior</span>
-            <h3 class="work-title">EXPRESS ESTATE</h3>
+
+          <!-- Work Item 4: A2 - 03 - NAVALUR -->
+          <div class="work-item" data-category="residential" data-project-id="04-a2-03-navalur">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/04.%20A2%20-%2003%20-%20NAVALUR/01.png" alt="A2 - 03 - NAVALUR" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 31 Photos</span>
+                  </div>
+                  <h3 class="work-title">A2 - 03 - NAVALUR</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View A2 - 03 - NAVALUR gallery"><i class="fas fa-expand"></i></div>
+            </div>
           </div>
-        </div>
-        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
-      </div>
-      
-      <!-- Item 5 -->
-      <div class="work-item" data-category="residential">
-        <div class="work-image-wrap">
-          <img src="assets/images/projects/menka.jpg" alt="MENKA Project">
-        </div>
-        <div class="work-overlay">
-          <div class="work-details">
-            <span class="work-category">Residential / Urban Living</span>
-            <h3 class="work-title">MENKA</h3>
+
+          <!-- Work Item 5: DUBAI HILLS - DUBAI HILL ESTATE, DUBAI -->
+          <div class="work-item" data-category="international" data-project-id="05-dubai-hills-dubai-hill-estate-dubai">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/05.%20DUBAI%20HILLS%20-%20DUBAI%20HILL%20ESTATE,%20DUBAI/01.jpg" alt="DUBAI HILLS - DUBAI HILL ESTATE, DUBAI" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">International / Luxury Estate</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 33 Photos</span>
+                  </div>
+                  <h3 class="work-title">DUBAI HILLS - DUBAI HILL ESTATE, DUBAI</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View DUBAI HILLS - DUBAI HILL ESTATE, DUBAI gallery"><i class="fas fa-expand"></i></div>
+            </div>
           </div>
-        </div>
-        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
-      </div>
-      
-      <!-- Item 6 -->
-      <div class="work-item" data-category="commercial">
-        <div class="work-image-wrap">
-          <img src="assets/images/projects/pure-lights-studio.jpg" alt="PURE LIGHTS STUDIO Project">
-        </div>
-        <div class="work-overlay">
-          <div class="work-details">
-            <span class="work-category">Commercial Interior</span>
-            <h3 class="work-title">PURE LIGHTS STUDIO</h3>
+
+          <!-- Work Item 6: CHIC SALON - KORATTUR -->
+          <div class="work-item" data-category="commercial" data-project-id="06-chic-salon-korattur">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/01.jpg" alt="CHIC SALON - KORATTUR" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Commercial / Turnkey Design</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 32 Photos</span>
+                  </div>
+                  <h3 class="work-title">CHIC SALON - KORATTUR</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View CHIC SALON - KORATTUR gallery"><i class="fas fa-expand"></i></div>
+            </div>
           </div>
-        </div>
-        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
-      </div>
-      
-      <!-- Item 7 (Tall) -->
-      <div class="work-item" data-category="commercial">
-        <div class="work-image-wrap">
-          <img src="assets/images/projects/tara-decors.jpg" alt="TARA DECORS Project">
-        </div>
-        <div class="work-overlay">
-          <div class="work-details">
-            <span class="work-category">Commercial / Turnkey Showroom</span>
-            <h3 class="work-title">TARA DECORS</h3>
+
+          <!-- Work Item 7: AVADI RESIDENCE - AVADI -->
+          <div class="work-item" data-category="residential" data-project-id="07-avadi-residence-avadi">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/07.%20AVADI%20RESIDENCE%20-%20AVADI/01.png" alt="AVADI RESIDENCE - AVADI" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 34 Photos</span>
+                  </div>
+                  <h3 class="work-title">AVADI RESIDENCE - AVADI</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View AVADI RESIDENCE - AVADI gallery"><i class="fas fa-expand"></i></div>
+            </div>
           </div>
-        </div>
-        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
-      </div>
-      
-      <!-- Item 8 -->
-      <div class="work-item" data-category="commercial">
-        <div class="work-image-wrap">
-          <img src="assets/images/projects/quinchem.jpg" alt="QUINCHEM Project">
-        </div>
-        <div class="work-overlay">
-          <div class="work-details">
-            <span class="work-category">Commercial / Corporate Exterior</span>
-            <h3 class="work-title">QUINCHEM</h3>
+
+          <!-- Work Item 8: MADHAN RESIDENCE - KATTUPAKKAM, CHENNAI -->
+          <div class="work-item" data-category="residential" data-project-id="09-madhan-residence-kattupakkam-chennai">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/09.%20MADHAN%20RESIDENCE%20-%20KATTUPAKKAM,%20CHENNAI/01.png" alt="MADHAN RESIDENCE - KATTUPAKKAM, CHENNAI" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 3 Photos</span>
+                  </div>
+                  <h3 class="work-title">MADHAN RESIDENCE - KATTUPAKKAM, CHENNAI</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View MADHAN RESIDENCE - KATTUPAKKAM, CHENNAI gallery"><i class="fas fa-expand"></i></div>
+            </div>
           </div>
-        </div>
-        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
-      </div>
-      
-      <!-- Item 9 (Wide) -->
-      <div class="work-item" data-category="hospitality">
-        <div class="work-image-wrap">
-          <img src="assets/images/projects/tiny-house-competition.jpg" alt="TINY HOUSE COMPETITION Project">
-        </div>
-        <div class="work-overlay">
-          <div class="work-details">
-            <span class="work-category">Hospitality / Resort Micro-living</span>
-            <h3 class="work-title">TINY HOUSE COMPETITION</h3>
+
+          <!-- Work Item 9: ECR - 14 - ECR -->
+          <div class="work-item" data-category="residential" data-project-id="10-ecr-14-ecr">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/10.%20ECR%20-%2014%20-%20ECR/01.png" alt="ECR - 14 - ECR" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 38 Photos</span>
+                  </div>
+                  <h3 class="work-title">ECR - 14 - ECR</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View ECR - 14 - ECR gallery"><i class="fas fa-expand"></i></div>
+            </div>
           </div>
-        </div>
-        <div class="work-btn-lightbox"><i class="fas fa-expand"></i></div>
-      </div>
+
+          <!-- Work Item 10: DOOR NO - 3A -AVADI -->
+          <div class="work-item" data-category="residential" data-project-id="11-door-no-3a-avadi">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/11.%20DOOR%20NO%20-%203A%20-AVADI/01.png" alt="DOOR NO - 3A -AVADI" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 16 Photos</span>
+                  </div>
+                  <h3 class="work-title">DOOR NO - 3A -AVADI</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View DOOR NO - 3A -AVADI gallery"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Work Item 11: AARON OBED - MAHALINGAPURAM -->
+          <div class="work-item" data-category="residential" data-project-id="12-aaron-obed-mahalingapuram">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/12.%20AARON%20OBED%20-%20MAHALINGAPURAM/01.png" alt="AARON OBED - MAHALINGAPURAM" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 5 Photos</span>
+                  </div>
+                  <h3 class="work-title">AARON OBED - MAHALINGAPURAM</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View AARON OBED - MAHALINGAPURAM gallery"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Work Item 12: AMARA - NUNGAMBAKKAM -->
+          <div class="work-item" data-category="residential" data-project-id="13-amara-nungambakkam">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/13.%20AMARA%20-%20NUNGAMBAKKAM/04.png" alt="AMARA - NUNGAMBAKKAM" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 5 Photos</span>
+                  </div>
+                  <h3 class="work-title">AMARA - NUNGAMBAKKAM</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View AMARA - NUNGAMBAKKAM gallery"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Work Item 13: QUINCHEM - ANNA NAGAR -->
+          <div class="work-item" data-category="commercial" data-project-id="14-quinchem-anna-nagar">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/01.png" alt="QUINCHEM - ANNA NAGAR" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Commercial / Turnkey Design</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 8 Photos</span>
+                  </div>
+                  <h3 class="work-title">QUINCHEM - ANNA NAGAR</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View QUINCHEM - ANNA NAGAR gallery"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Work Item 14: EXPRESS ESTATE - THOUSAND LIGHTS -->
+          <div class="work-item" data-category="residential" data-project-id="15-express-estate-thousand-lights">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/15.%20EXPRESS%20ESTATE%20-%20THOUSAND%20LIGHTS/01.png" alt="EXPRESS ESTATE - THOUSAND LIGHTS" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 6 Photos</span>
+                  </div>
+                  <h3 class="work-title">EXPRESS ESTATE - THOUSAND LIGHTS</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View EXPRESS ESTATE - THOUSAND LIGHTS gallery"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Work Item 15: MENAKA - KODAMBAKKAM -->
+          <div class="work-item" data-category="residential" data-project-id="16-menaka-kodambakkam">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/01.png" alt="MENAKA - KODAMBAKKAM" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 8 Photos</span>
+                  </div>
+                  <h3 class="work-title">MENAKA - KODAMBAKKAM</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View MENAKA - KODAMBAKKAM gallery"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Work Item 16: THIRUVALLUR RESIDENCE - THIRUVALLUR -->
+          <div class="work-item" data-category="residential" data-project-id="17-thiruvallur-residence-thiruvallur">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/17.%20THIRUVALLUR%20RESIDENCE%20-%20THIRUVALLUR/01.png" alt="THIRUVALLUR RESIDENCE - THIRUVALLUR" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 20 Photos</span>
+                  </div>
+                  <h3 class="work-title">THIRUVALLUR RESIDENCE - THIRUVALLUR</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View THIRUVALLUR RESIDENCE - THIRUVALLUR gallery"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Work Item 17: PROJECT - OLYMPIA PANACHE -->
+          <div class="work-item" data-category="residential" data-project-id="standalone-olympia-panache-jpg">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/olympia-panache.jpg" alt="PROJECT - OLYMPIA PANACHE" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Residential / Architecture & Interiors</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 1 Photo</span>
+                  </div>
+                  <h3 class="work-title">PROJECT - OLYMPIA PANACHE</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View PROJECT - OLYMPIA PANACHE photo"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Work Item 18: PROJECT - PURE LIGHTS STUDIO -->
+          <div class="work-item" data-category="commercial" data-project-id="standalone-pure-lights-studio-jpg">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/pure-lights-studio.jpg" alt="PROJECT - PURE LIGHTS STUDIO" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Commercial / Turnkey Design</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 1 Photo</span>
+                  </div>
+                  <h3 class="work-title">PROJECT - PURE LIGHTS STUDIO</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View PROJECT - PURE LIGHTS STUDIO photo"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Work Item 19: PROJECT - TARA DECORS -->
+          <div class="work-item" data-category="commercial" data-project-id="standalone-tara-decors-jpg">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/tara-decors.jpg" alt="PROJECT - TARA DECORS" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Commercial / Turnkey Design</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 1 Photo</span>
+                  </div>
+                  <h3 class="work-title">PROJECT - TARA DECORS</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View PROJECT - TARA DECORS photo"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
+
+          <!-- Work Item 20: PROJECT - TINY HOUSE COMPETITION -->
+          <div class="work-item" data-category="hospitality" data-project-id="standalone-tiny-house-competition-jpg">
+            <div class="work-image-wrap">
+              <img src="assets/images/projects/tiny-house-competition.jpg" alt="PROJECT - TINY HOUSE COMPETITION" class="work-img" loading="lazy" decoding="async">
+              <div class="work-overlay">
+                <div class="work-details">
+                  <div class="work-meta">
+                    <span class="work-category">Hospitality / Resort Micro-living</span>
+                    <span class="work-photo-badge"><i class="fas fa-camera"></i> 1 Photo</span>
+                  </div>
+                  <h3 class="work-title">PROJECT - TINY HOUSE COMPETITION</h3>
+                </div>
+              </div>
+              <div class="work-btn-lightbox" role="button" aria-label="View PROJECT - TINY HOUSE COMPETITION photo"><i class="fas fa-expand"></i></div>
+            </div>
+          </div>
     </div>
   </section>
 
@@ -597,13 +810,18 @@
      ========================================================================== -->
   <div class="custom-lightbox" id="custom-lightbox">
     <div class="lightbox-content-wrap">
-      <button class="lightbox-close"><i class="fas fa-times"></i></button>
-      <button class="lightbox-nav-btn lightbox-prev"><i class="fas fa-arrow-left"></i></button>
-      <button class="lightbox-nav-btn lightbox-next"><i class="fas fa-arrow-right"></i></button>
-      <div class="lightbox-image-container">
-        <img src="" alt="Lightbox Preview">
+      <button class="lightbox-close" aria-label="Close Lightbox"><i class="fas fa-times"></i></button>
+      <button class="lightbox-nav-btn lightbox-prev" aria-label="Previous Photo"><i class="fas fa-arrow-left"></i></button>
+      <button class="lightbox-nav-btn lightbox-next" aria-label="Next Photo"><i class="fas fa-arrow-right"></i></button>
+      
+      <div class="lightbox-header-meta">
+        <h4 class="lightbox-title"></h4>
+        <span class="lightbox-counter"></span>
       </div>
-      <h4 class="lightbox-title"></h4>
+
+      <div class="lightbox-image-container">
+        <img loading="lazy" decoding="async" src="" alt="Lightbox Preview">
+      </div>
     </div>
   </div>
 
@@ -619,7 +837,7 @@
         </blockquote>
         <div class="founder-info">
           <div class="founder-image-wrap">
-            <img src="assets/images/content/founder-gokul-ranganaath.png" alt="Gokul Ranganaath Vairamani Founder">
+            <img loading="lazy" decoding="async" src="assets/images/content/founder-gokul-ranganaath.png" alt="Gokul Ranganaath Vairamani Founder">
           </div>
           <div>
             <h4 class="founder-name">GOKUL RANGANAATH VAIRAMANI</h4>
@@ -630,7 +848,7 @@
       
       <div class="quote-right">
         <!-- Floating brand logo illustration -->
-        <img src="assets/images/brand/logo-full-teal.png" alt="VRG DESIGN DEN Logo" class="founder-quote-illustration">
+        <img decoding="async" src="assets/images/brand/logo-full-teal.png" alt="VRG DESIGN DEN Logo" class="founder-quote-illustration">
       </div>
     </div>
   </section>
@@ -893,7 +1111,7 @@
       
       <!-- Embedded google maps with dark visual filter -->
       <div class="contact-map-wrap reveal-3d">
-        <iframe src="https://maps.google.com/maps?q=10A%2F7%2C+Second+Main+Road%2C+V.O.C.+Colony%2C+Kodambakkam%2C+Chennai+600024%2C+Tamil+Nadu&t=&z=16&ie=UTF8&iwloc=addr&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://maps.google.com/maps?q=10A%2F7,+Second+Main+Road,+V.O.C.+Colony,+Kodambakkam,+Chennai+600024,+Tamil+Nadu&t=&z=16&ie=UTF8&iwloc=addr&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </section>
@@ -905,7 +1123,7 @@
     <div class="footer-top">
       <div class="footer-brand-col">
         <div class="footer-branding-wrap">
-          <img src="assets/images/brand/logo-symbol-teal.png?v=2" alt="VRG DESIGN DEN Logo" class="footer-logo">
+          <img decoding="async" src="assets/images/brand/logo-symbol-teal.png?v=2" alt="VRG DESIGN DEN Logo" class="footer-logo">
           <div class="footer-separator"></div>
           <div class="footer-brand-info">
             <div class="footer-brand-name">VRG DESIGN DEN</div>
@@ -968,6 +1186,6 @@
   <script src="assets/js/security.js"></script>
 
   <!-- Application entry point -->
-  <script type="module" src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/main.js?v=16.0"></script>
 </body>
 </html>

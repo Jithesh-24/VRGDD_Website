@@ -29,6 +29,7 @@
   height: 48px;
   width: auto;
   transform: translateZ(0);
+  filter: brightness(1.5) contrast(1.05);
 }
 
 .footer-separator {
@@ -46,11 +47,11 @@
 }
 
 .footer-brand-name {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 16.5px;
-  font-weight: 500;
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 600;
   letter-spacing: 1.2px;
-  color: #b8cacc;
+  color: #2f7a85;
   text-transform: uppercase;
   line-height: 1.1;
   text-align: center;
@@ -58,10 +59,10 @@
 
 .footer-brand-tagline {
   font-family: var(--font-body); /* Inter */
-  font-size: 8.5px;
-  font-weight: 400;
+  font-size: 11px;
+  font-weight: 500;
   letter-spacing: 0.5px;
-  color: #a2b5b8;
+  color: #2f7a85;
   line-height: 1.1;
   text-transform: lowercase;
   text-align: center;
@@ -70,10 +71,10 @@
 
 .footer-brand-services {
   font-family: var(--font-body); /* Inter */
-  font-size: 7.5px;
-  font-weight: 400;
+  font-size: 9.5px;
+  font-weight: 500;
   letter-spacing: 0.5px;
-  color: #8ca0a4;
+  color: #2f7a85;
   line-height: 1.1;
   text-align: center;
   margin-top: 2px;

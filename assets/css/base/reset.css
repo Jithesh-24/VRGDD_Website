@@ -44,6 +44,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  image-orientation: from-image !important;
   transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -64,10 +65,17 @@ button, input, textarea {
 .section-padding {
   padding: 140px 10% 120px 10%;
   position: relative;
+  contain: layout style;
 }
 
 @media (max-width: 991px) {
   .section-padding {
     padding: 100px 6% 80px 6%;
   }
+}
+
+/* GPU hardware acceleration hints for smooth 60fps/120fps scrolling */
+.reveal-3d, .hero, .works-item, .service-card, .category-card {
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
