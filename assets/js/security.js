@@ -4,8 +4,14 @@
 (function() {
   const allowedHosts = ["localhost", "127.0.0.1"];
   const hostname = window.location.hostname;
-  const isNetlify = hostname.endsWith(".netlify.app");
-  const isAllowed = allowedHosts.includes(hostname) || isNetlify;
+  const isAllowedDomain = 
+    hostname.endsWith(".netlify.app") ||
+    hostname.endsWith(".github.io") ||
+    hostname.endsWith(".vercel.app") ||
+    hostname.endsWith(".pages.dev") ||
+    hostname.endsWith(".surge.sh") ||
+    hostname.endsWith(".onrender.com");
+  const isAllowed = allowedHosts.includes(hostname) || isAllowedDomain;
 
   if (!isAllowed) {
     // Lock the website if hosted elsewhere
