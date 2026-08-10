@@ -97,7 +97,8 @@
 .work-image-wrap img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
   transform: scale(1.02);
   transition: transform 1.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
@@ -163,17 +164,39 @@
 }
 
 .work-title {
-  font-family: var(--font-heading);
-  font-size: 22px;
-  color: var(--text-highlight);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.work-title-main {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.2;
 }
 
 .work-location {
-  font-family: var(--font-body);
+  font-family: var(--font-accent);
   font-size: 11px;
-  color: var(--text-secondary);
-  margin-top: 4px;
-  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: var(--color-gold);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.work-location i {
+  font-size: 10px;
+  color: var(--color-gold);
 }
 
 .work-btn-lightbox {
@@ -203,19 +226,27 @@
   border-color: var(--color-gold);
 }
 
-.work-item:hover .work-image-wrap img {
+.work-item:hover .work-image-wrap img,
+.work-item:active .work-image-wrap img,
+.work-item.touch-active .work-image-wrap img {
   transform: scale(1.08);
 }
 
-.work-item:hover .work-overlay {
+.work-item:hover .work-overlay,
+.work-item:active .work-overlay,
+.work-item.touch-active .work-overlay {
   opacity: 1;
 }
 
-.work-item:hover .work-details {
+.work-item:hover .work-details,
+.work-item:active .work-details,
+.work-item.touch-active .work-details {
   transform: translateY(0) translateZ(30px);
 }
 
-.work-item:hover .work-btn-lightbox {
+.work-item:hover .work-btn-lightbox,
+.work-item:active .work-btn-lightbox,
+.work-item.touch-active .work-btn-lightbox {
   opacity: 1;
   transform: scale(1) rotate(0deg) translateZ(40px);
 }
@@ -231,5 +262,14 @@
   .works-grid {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+  .work-title-main {
+    font-size: 16px;
+  }
+  .work-location {
+    font-size: 10px;
+  }
+  .work-overlay {
+    padding: 22px;
   }
 }

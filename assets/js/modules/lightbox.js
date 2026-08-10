@@ -6,6 +6,14 @@ const PROJECT_GALLERIES = {
     "subtitle": "Residential / Architecture & Interiors (53 Photos)",
     "images": [
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/1.png",
+      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/2.jpg",
+      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/3.jpg",
+      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/4.jpg",
+      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/5.jpg",
+      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/6.jpg",
+      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/7.jpg",
+      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/8.jpg",
+      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/9.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/10.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/11.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/12.jpg",
@@ -16,7 +24,6 @@ const PROJECT_GALLERIES = {
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/17.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/18.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/19.jpg",
-      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/2.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/20.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/21.png",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/23.jpg",
@@ -24,7 +31,6 @@ const PROJECT_GALLERIES = {
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/25.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/26.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/27.jpg",
-      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/3.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/33.png",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/34.png",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/35.png",
@@ -32,7 +38,6 @@ const PROJECT_GALLERIES = {
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/37.png",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/38.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/39.jpg",
-      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/4.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/40.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/41.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/42.jpg",
@@ -43,21 +48,16 @@ const PROJECT_GALLERIES = {
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/47.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/48.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/49.jpg",
-      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/5.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/53.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/54.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/56.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/58.jpg",
-      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/6.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/60.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/61.jpg",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/62.png",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/67.png",
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/68.png",
-      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/7.jpg",
-      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/70.png",
-      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/8.jpg",
-      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/9.jpg"
+      "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/70.png"
     ]
   },
   "02-villa-europa-ecr": {
@@ -114,19 +114,7 @@ const PROJECT_GALLERIES = {
     "subtitle": "Residential / Architecture & Interiors (28 Photos)",
     "images": [
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/1.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/10.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/11.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/12.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/13.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/14.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/15.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/16.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/17.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/18.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/19.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/2.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/20.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/21.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/22.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/23.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/24.jpg",
@@ -134,13 +122,25 @@ const PROJECT_GALLERIES = {
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/26.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/27.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/28.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/2.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/3.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/4.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/11.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/5.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/6.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/7.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/8.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/9.jpg"
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/9.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/10.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/13.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/14.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/15.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/19.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/17.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/18.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/16.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/20.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/21.jpg"
     ]
   },
   "04-a2-03-navalur": {
@@ -230,7 +230,7 @@ const PROJECT_GALLERIES = {
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/05.jpg",
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/06.jpg",
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/07.jpg",
-      "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/08(1).jpg",
+      "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/08%281%29.jpg",
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/08.jpg",
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/09.jpg",
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/10.jpg",
@@ -238,7 +238,7 @@ const PROJECT_GALLERIES = {
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/12.jpg",
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/13.jpg",
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/14.jpg",
-      "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/15(1).jpg",
+      "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/15%281%29.jpg",
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/15.jpg",
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/16.jpg",
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/17.jpg",
@@ -387,10 +387,10 @@ const PROJECT_GALLERIES = {
     "title": "AMARA - NUNGAMBAKKAM",
     "subtitle": "Residential / Architecture & Interiors (5 Photos)",
     "images": [
-      "assets/images/projects/13.%20AMARA%20-%20NUNGAMBAKKAM/04.png",
-      "assets/images/projects/13.%20AMARA%20-%20NUNGAMBAKKAM/05.png",
       "assets/images/projects/13.%20AMARA%20-%20NUNGAMBAKKAM/1.png",
       "assets/images/projects/13.%20AMARA%20-%20NUNGAMBAKKAM/2.png",
+      "assets/images/projects/13.%20AMARA%20-%20NUNGAMBAKKAM/04.png",
+      "assets/images/projects/13.%20AMARA%20-%20NUNGAMBAKKAM/05.png",
       "assets/images/projects/13.%20AMARA%20-%20NUNGAMBAKKAM/amara.png"
     ]
   },
@@ -399,37 +399,34 @@ const PROJECT_GALLERIES = {
     "subtitle": "Commercial / Turnkey Design (8 Photos)",
     "images": [
       "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/01.png",
+      "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/1.png",
       "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/02.png",
       "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/03.png",
       "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/04.png",
       "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/05.png",
       "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/06.png",
-      "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/07.png",
-      "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/1.png"
+      "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/07.png"
     ]
   },
   "15-express-estate-thousand-lights": {
     "title": "EXPRESS ESTATE - THOUSAND LIGHTS",
-    "subtitle": "Residential / Architecture & Interiors (6 Photos)",
+    "subtitle": "Residential / Architecture & Interiors (5 Photos)",
     "images": [
       "assets/images/projects/15.%20EXPRESS%20ESTATE%20-%20THOUSAND%20LIGHTS/01.png",
       "assets/images/projects/15.%20EXPRESS%20ESTATE%20-%20THOUSAND%20LIGHTS/02.png",
       "assets/images/projects/15.%20EXPRESS%20ESTATE%20-%20THOUSAND%20LIGHTS/03.png",
       "assets/images/projects/15.%20EXPRESS%20ESTATE%20-%20THOUSAND%20LIGHTS/05.png",
-      "assets/images/projects/15.%20EXPRESS%20ESTATE%20-%20THOUSAND%20LIGHTS/06.png",
-      "assets/images/projects/15.%20EXPRESS%20ESTATE%20-%20THOUSAND%20LIGHTS/express-estate.jpg"
+      "assets/images/projects/15.%20EXPRESS%20ESTATE%20-%20THOUSAND%20LIGHTS/06.png"
     ]
   },
   "16-menaka-kodambakkam": {
     "title": "MENAKA - KODAMBAKKAM",
-    "subtitle": "Residential / Architecture & Interiors (8 Photos)",
+    "subtitle": "Residential / Architecture & Interiors (6 Photos)",
     "images": [
-      "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/01.png",
       "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/02.png",
       "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/03.png",
       "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/04.png",
       "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/05.png",
-      "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/06.png",
       "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/07.png",
       "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/08.png"
     ]
@@ -460,34 +457,6 @@ const PROJECT_GALLERIES = {
       "assets/images/projects/17.%20THIRUVALLUR%20RESIDENCE%20-%20THIRUVALLUR/20.png"
     ]
   },
-  "standalone-olympia-panache-jpg": {
-    "title": "PROJECT - OLYMPIA PANACHE",
-    "subtitle": "Residential / Architecture & Interiors (1 Photo)",
-    "images": [
-      "assets/images/projects/olympia-panache.jpg"
-    ]
-  },
-  "standalone-pure-lights-studio-jpg": {
-    "title": "PROJECT - PURE LIGHTS STUDIO",
-    "subtitle": "Commercial / Turnkey Design (1 Photo)",
-    "images": [
-      "assets/images/projects/pure-lights-studio.jpg"
-    ]
-  },
-  "standalone-tara-decors-jpg": {
-    "title": "PROJECT - TARA DECORS",
-    "subtitle": "Commercial / Turnkey Design (1 Photo)",
-    "images": [
-      "assets/images/projects/tara-decors.jpg"
-    ]
-  },
-  "standalone-tiny-house-competition-jpg": {
-    "title": "PROJECT - TINY HOUSE COMPETITION",
-    "subtitle": "Hospitality / Resort Micro-living (1 Photo)",
-    "images": [
-      "assets/images/projects/tiny-house-competition.jpg"
-    ]
-  }
 };
 
 export function initLightbox() {
