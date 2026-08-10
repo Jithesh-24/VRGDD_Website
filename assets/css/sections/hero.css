@@ -3,6 +3,8 @@
    ========================================================================== */
 .hero {
   height: 100vh;
+  height: 100dvh;
+  min-height: -webkit-fill-available;
   position: relative;
   display: flex;
   align-items: center;
