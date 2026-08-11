@@ -110,41 +110,41 @@ const PROJECT_GALLERIES = {
     ]
   },
   "03-tvh-nivaan-a101-saligramam": {
-    "title": "TVH - NIVAAN - A101 - SALIGRAMAM",
+    "title": "A101 – TVH NIVAAN - SALIGRAMAM",
     "subtitle": "Residential / Architecture & Interiors (28 Photos)",
     "images": [
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/1.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/10.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/11.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/14.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/15.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/12.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/22.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/16.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/17.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/18.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/19.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/13.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/2.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/3.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/7.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/5.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/6.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/4.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/8.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/9.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/23.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/20.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/21.jpg",
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/22.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/24.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/25.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/26.jpg",
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/27.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/28.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/2.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/3.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/4.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/11.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/5.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/6.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/7.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/8.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/9.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/10.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/13.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/14.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/15.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/19.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/17.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/18.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/16.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/20.jpg",
-      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/21.jpg"
+      "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/28.jpg"
     ]
   },
   "04-a2-03-navalur": {
-    "title": "A2 - 03 - NAVALUR",
+    "title": "A2 - 03 OLYMPIA PANACHE - NAVALUR",
     "subtitle": "Residential / Architecture & Interiors (31 Photos)",
     "images": [
       "assets/images/projects/04.%20A2%20-%2003%20-%20NAVALUR/01.png",
@@ -181,8 +181,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "05-dubai-hills-dubai-hill-estate-dubai": {
-    "title": "DUBAI HILLS - DUBAI HILL ESTATE, DUBAI",
-    "subtitle": "International / Luxury Estate (33 Photos)",
+    "title": "OPULENT MANOR - DUBAI HILLS ESTATE, DUBAI",
+    "subtitle": "Residential / Luxury Estate (33 Photos)",
     "images": [
       "assets/images/projects/05.%20DUBAI%20HILLS%20-%20DUBAI%20HILL%20ESTATE,%20DUBAI/01.jpg",
       "assets/images/projects/05.%20DUBAI%20HILLS%20-%20DUBAI%20HILL%20ESTATE,%20DUBAI/02.jpg",
@@ -258,7 +258,7 @@ const PROJECT_GALLERIES = {
     ]
   },
   "07-avadi-residence-avadi": {
-    "title": "AVADI RESIDENCE - AVADI",
+    "title": "JAGDISH RESIDENCE - AVADI",
     "subtitle": "Residential / Architecture & Interiors (34 Photos)",
     "images": [
       "assets/images/projects/07.%20AVADI%20RESIDENCE%20-%20AVADI/01.png",
@@ -299,7 +299,7 @@ const PROJECT_GALLERIES = {
   },
   "09-madhan-residence-kattupakkam-chennai": {
     "title": "MADHAN RESIDENCE - KATTUPAKKAM, CHENNAI",
-    "subtitle": "Residential / Architecture & Interiors (3 Photos)",
+    "subtitle": "Residential / Architecture (3 Photos)",
     "images": [
       "assets/images/projects/09.%20MADHAN%20RESIDENCE%20-%20KATTUPAKKAM,%20CHENNAI/01.png",
       "assets/images/projects/09.%20MADHAN%20RESIDENCE%20-%20KATTUPAKKAM,%20CHENNAI/02.png",
@@ -374,7 +374,7 @@ const PROJECT_GALLERIES = {
   },
   "12-aaron-obed-mahalingapuram": {
     "title": "AARON OBED - MAHALINGAPURAM",
-    "subtitle": "Residential / Architecture & Interiors (5 Photos)",
+    "subtitle": "Commercial / Architecture & Interiors (5 Photos)",
     "images": [
       "assets/images/projects/12.%20AARON%20OBED%20-%20MAHALINGAPURAM/01.png",
       "assets/images/projects/12.%20AARON%20OBED%20-%20MAHALINGAPURAM/02.png",
@@ -421,7 +421,7 @@ const PROJECT_GALLERIES = {
   },
   "16-menaka-kodambakkam": {
     "title": "MENAKA - KODAMBAKKAM",
-    "subtitle": "Residential / Architecture & Interiors (6 Photos)",
+    "subtitle": "Commercial / Architecture & Interiors (6 Photos)",
     "images": [
       "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/02.png",
       "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/03.png",
