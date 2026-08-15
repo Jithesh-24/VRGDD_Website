@@ -221,7 +221,7 @@ const PROJECT_GALLERIES = {
   },
   "06-chic-salon-korattur": {
     "title": "CHIC SALON - KORATTUR",
-    "subtitle": "Commercial / Turnkey Design (32 Photos)",
+    "subtitle": "Commercial / Turnkey (32 Photos)",
     "images": [
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/01.jpg",
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/02.jpg",
@@ -374,7 +374,7 @@ const PROJECT_GALLERIES = {
   },
   "12-aaron-obed-mahalingapuram": {
     "title": "AARON OBED - MAHALINGAPURAM",
-    "subtitle": "Commercial / Architecture & Interiors (5 Photos)",
+    "subtitle": "Commercial / Turnkey (5 Photos)",
     "images": [
       "assets/images/projects/12.%20AARON%20OBED%20-%20MAHALINGAPURAM/01.png",
       "assets/images/projects/12.%20AARON%20OBED%20-%20MAHALINGAPURAM/02.png",
@@ -396,7 +396,7 @@ const PROJECT_GALLERIES = {
   },
   "14-quinchem-anna-nagar": {
     "title": "QUINCHEM - ANNA NAGAR",
-    "subtitle": "Commercial / Turnkey Design (8 Photos)",
+    "subtitle": "Commercial / Turnkey (8 Photos)",
     "images": [
       "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/01.png",
       "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/1.png",
@@ -420,8 +420,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "16-menaka-kodambakkam": {
-    "title": "MENAKA - KODAMBAKKAM",
-    "subtitle": "Commercial / Architecture & Interiors (6 Photos)",
+    "title": "MENAKA CARD - KODAMBAKKAM",
+    "subtitle": "Commercial / Turnkey (6 Photos)",
     "images": [
       "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/02.png",
       "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/03.png",
