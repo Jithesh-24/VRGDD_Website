@@ -18,66 +18,13 @@
   padding-right: 40px;
 }
 
-.footer-branding-wrap {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 25px;
-}
-
 .footer-logo {
-  height: 48px;
-  width: auto;
+  max-width: 280px;
+  width: 85%;
+  height: auto;
+  margin-bottom: 25px;
+  display: block;
   transform: translateZ(0);
-  filter: brightness(1.5) contrast(1.05);
-}
-
-.footer-separator {
-  width: 1px;
-  height: 38px;
-  background-color: rgba(255, 255, 255, 0.12);
-}
-
-.footer-brand-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1px;
-}
-
-.footer-brand-name {
-  font-family: var(--font-display);
-  font-size: 17px;
-  font-weight: 600;
-  letter-spacing: 1.2px;
-  color: #2f7a85;
-  text-transform: uppercase;
-  line-height: 1.1;
-  text-align: center;
-}
-
-.footer-brand-tagline {
-  font-family: var(--font-body); /* Inter */
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  color: #2f7a85;
-  line-height: 1.1;
-  text-transform: lowercase;
-  text-align: center;
-  margin-top: 1px;
-}
-
-.footer-brand-services {
-  font-family: var(--font-body); /* Inter */
-  font-size: 9.5px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  color: #2f7a85;
-  line-height: 1.1;
-  text-align: center;
-  margin-top: 2px;
 }
 
 .footer-brand-desc {
