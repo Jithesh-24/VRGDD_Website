@@ -2,7 +2,8 @@
 
 const PROJECT_GALLERIES = {
   "01-rathna-residence-t-nagar": {
-    "title": "RATHNA RESIDENCE - T.NAGAR",
+    "title": "Rathna Residence",
+    "location": "T.Nagar, Chennai",
     "subtitle": "Residential / Architecture & Interiors (53 Photos)",
     "images": [
       "assets/images/projects/01.%20RATHNA%20RESIDENCE%20-%20T.NAGAR/1.png",
@@ -61,7 +62,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "02-villa-europa-ecr": {
-    "title": "VILLA EUROPA - ECR",
+    "title": "Villa Europa",
+    "location": "ECR, Chennai",
     "subtitle": "Residential / Architecture & Interiors (43 Photos)",
     "images": [
       "assets/images/projects/02.%20VILLA%20EUROPA%20-%20ECR/01.jpg",
@@ -110,7 +112,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "03-tvh-nivaan-a101-saligramam": {
-    "title": "A101 – TVH NIVAAN - SALIGRAMAM",
+    "title": "A101 – TVH Nivaan",
+    "location": "Saligramam, Chennai",
     "subtitle": "Residential / Architecture & Interiors (28 Photos)",
     "images": [
       "assets/images/projects/03.%20TVH%20-%20NIVAAN%20-%20A101%20-%20SALIGRAMAM/1.jpg",
@@ -144,7 +147,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "04-a2-03-navalur": {
-    "title": "A2 - 03 OLYMPIA PANACHE - NAVALUR",
+    "title": "A2 - 03 Olympia Panache",
+    "location": "Navalur, Chennai",
     "subtitle": "Residential / Architecture & Interiors (31 Photos)",
     "images": [
       "assets/images/projects/04.%20A2%20-%2003%20-%20NAVALUR/01.png",
@@ -181,7 +185,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "05-dubai-hills-dubai-hill-estate-dubai": {
-    "title": "OPULENT MANOR - DUBAI HILLS ESTATE, DUBAI",
+    "title": "Opulent Manor",
+    "location": "Dubai Hills Estate, Dubai",
     "subtitle": "Residential / Luxury Estate (33 Photos)",
     "images": [
       "assets/images/projects/05.%20DUBAI%20HILLS%20-%20DUBAI%20HILL%20ESTATE,%20DUBAI/01.jpg",
@@ -220,7 +225,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "06-chic-salon-korattur": {
-    "title": "CHIC SALON - KORATTUR",
+    "title": "Chic Salon",
+    "location": "Korattur, Chennai",
     "subtitle": "Commercial / Turnkey (32 Photos)",
     "images": [
       "assets/images/projects/06.%20CHIC%20SALON%20-%20KORATTUR/01.jpg",
@@ -258,7 +264,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "07-avadi-residence-avadi": {
-    "title": "JAGDISH RESIDENCE - AVADI",
+    "title": "Jagdish Residence",
+    "location": "Avadi, Chennai",
     "subtitle": "Residential / Architecture & Interiors (34 Photos)",
     "images": [
       "assets/images/projects/07.%20AVADI%20RESIDENCE%20-%20AVADI/01.png",
@@ -298,7 +305,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "09-madhan-residence-kattupakkam-chennai": {
-    "title": "MADHAN RESIDENCE - KATTUPAKKAM, CHENNAI",
+    "title": "Madhan Residence",
+    "location": "Kattupakkam, Chennai",
     "subtitle": "Residential / Architecture (3 Photos)",
     "images": [
       "assets/images/projects/09.%20MADHAN%20RESIDENCE%20-%20KATTUPAKKAM,%20CHENNAI/01.png",
@@ -307,7 +315,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "10-ecr-14-ecr": {
-    "title": "ECR - 14 - ECR",
+    "title": "ECR - 14 Residence",
+    "location": "ECR, Chennai",
     "subtitle": "Residential / Architecture & Interiors (38 Photos)",
     "images": [
       "assets/images/projects/10.%20ECR%20-%2014%20-%20ECR/01.png",
@@ -351,7 +360,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "11-door-no-3a-avadi": {
-    "title": "DOOR NO - 3A -AVADI",
+    "title": "Door No. 3A Residence",
+    "location": "Avadi, Chennai",
     "subtitle": "Residential / Architecture & Interiors (16 Photos)",
     "images": [
       "assets/images/projects/11.%20DOOR%20NO%20-%203A%20-AVADI/01.png",
@@ -373,7 +383,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "12-aaron-obed-mahalingapuram": {
-    "title": "AARON OBED - MAHALINGAPURAM",
+    "title": "Aaron Obed Studio",
+    "location": "Mahalingapuram, Chennai",
     "subtitle": "Commercial / Turnkey (5 Photos)",
     "images": [
       "assets/images/projects/12.%20AARON%20OBED%20-%20MAHALINGAPURAM/01.png",
@@ -384,7 +395,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "13-amara-nungambakkam": {
-    "title": "AMARA - NUNGAMBAKKAM",
+    "title": "Amara Residence",
+    "location": "Nungambakkam, Chennai",
     "subtitle": "Residential / Architecture & Interiors (5 Photos)",
     "images": [
       "assets/images/projects/13.%20AMARA%20-%20NUNGAMBAKKAM/1.png",
@@ -395,7 +407,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "14-quinchem-anna-nagar": {
-    "title": "QUINCHEM - ANNA NAGAR",
+    "title": "Quinchem Office",
+    "location": "Anna Nagar, Chennai",
     "subtitle": "Commercial / Turnkey (8 Photos)",
     "images": [
       "assets/images/projects/14.%20QUINCHEM%20-%20ANNA%20NAGAR/01.png",
@@ -409,7 +422,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "15-express-estate-thousand-lights": {
-    "title": "EXPRESS ESTATE - THOUSAND LIGHTS",
+    "title": "Express Estate",
+    "location": "Thousand Lights, Chennai",
     "subtitle": "Residential / Architecture & Interiors (5 Photos)",
     "images": [
       "assets/images/projects/15.%20EXPRESS%20ESTATE%20-%20THOUSAND%20LIGHTS/01.png",
@@ -420,7 +434,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "16-menaka-kodambakkam": {
-    "title": "MENAKA CARD - KODAMBAKKAM",
+    "title": "Menaka Card",
+    "location": "Kodambakkam, Chennai",
     "subtitle": "Commercial / Turnkey (6 Photos)",
     "images": [
       "assets/images/projects/16.%20MENAKA%20-%20KODAMBAKKAM/02.png",
@@ -432,7 +447,8 @@ const PROJECT_GALLERIES = {
     ]
   },
   "17-thiruvallur-residence-thiruvallur": {
-    "title": "THIRUVALLUR RESIDENCE - THIRUVALLUR",
+    "title": "Thiruvallur Residence",
+    "location": "Thiruvallur, Chennai",
     "subtitle": "Residential / Architecture & Interiors (20 Photos)",
     "images": [
       "assets/images/projects/17.%20THIRUVALLUR%20RESIDENCE%20-%20THIRUVALLUR/01.png",
@@ -463,6 +479,7 @@ export function initLightbox() {
   const lightbox = document.getElementById("custom-lightbox");
   const imgContainer = document.querySelector(".lightbox-image-container img");
   const titleEl = document.querySelector(".lightbox-title");
+  const locationEl = document.querySelector(".lightbox-location");
   const counterEl = document.querySelector(".lightbox-counter");
   const closeBtn = document.querySelector(".lightbox-close");
   const prevBtn = document.querySelector(".lightbox-prev");
@@ -480,7 +497,8 @@ export function initLightbox() {
       e.preventDefault();
       
       const projectId = item.getAttribute("data-project-id");
-      const titleText = item.querySelector(".work-title")?.textContent || "Project Photo";
+      const titleMain = item.querySelector(".work-title-main")?.textContent || item.querySelector(".work-title")?.textContent || "Project Photo";
+      const locMain = item.querySelector(".work-location")?.textContent?.trim() || "";
       
       activeGallery = [];
       
@@ -490,6 +508,7 @@ export function initLightbox() {
           activeGallery.push({
             src: imgSrc,
             projectTitle: pData.title,
+            projectLocation: pData.location || "",
             subtitle: pData.subtitle
           });
         });
@@ -499,7 +518,8 @@ export function initLightbox() {
         if (img) {
           activeGallery.push({
             src: img.getAttribute("src"),
-            projectTitle: titleText,
+            projectTitle: titleMain,
+            projectLocation: locMain,
             subtitle: "Project Photo"
           });
         }
@@ -532,8 +552,12 @@ export function initLightbox() {
     for (let offset = -3; offset <= 3; offset++) {
       if (offset === 0) continue;
       const targetIdx = (index + offset + len) % len;
-      preloadAndDecode(activeGallery[targetIdx].src);
+      preloadNeighborsSrc(activeGallery[targetIdx]?.src);
     }
+  }
+
+  function preloadNeighborsSrc(src) {
+    if (src) preloadAndDecode(src);
   }
 
   function renderCurrentPhoto(instant = false) {
@@ -542,6 +566,15 @@ export function initLightbox() {
     const current = activeGallery[activeIndex];
     
     if (titleEl) titleEl.textContent = current.projectTitle;
+    if (locationEl) {
+      if (current.projectLocation) {
+        locationEl.innerHTML = `<i class="fas fa-map-marker-alt"></i><span>${current.projectLocation}</span>`;
+        locationEl.style.display = "inline-flex";
+      } else {
+        locationEl.textContent = "";
+        locationEl.style.display = "none";
+      }
+    }
     if (counterEl) counterEl.textContent = `Photo ${activeIndex + 1} of ${activeGallery.length}`;
     
     preloadNeighbors(activeIndex);
